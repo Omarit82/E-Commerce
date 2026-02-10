@@ -20,11 +20,11 @@ Ejemplo de un E-commerce realizado para el curso de Backend en Coderhouse
 
 git clone https://github.com/Omarit82/E-Commerce
 
-Navega al directorio del proyecto y ejecuta:
+## Navega al directorio del proyecto y ejecuta:
 
 npm install
 
-finalmente:
+## finalmente:
 
 npm run start
 
