@@ -1,11 +1,33 @@
-*** Usuarios para ver funcionalidades: ***
+# E-Commerce
 
-user: omar@omar.com
-pass: 123456
+Ejemplo de un E-commerce realizado para el curso de Backend en Coderhouse
 
-Rol de usuario, puede loguearse y ver los productos, no puede acceder a la ruta localhost:8080/new-product o cualquier ruta exclusiva del administrador (carga de stock, vista de tickets)
+### Tecnologias Utilizadas
+- Desarrollado en Node.JS
+- Express - Express Session - Express Handlebars
+- JWT para autenticacion
+- Passport con conexion Github y local
+- Mongo DB
+- Sweet Alert para el frontend con Handlebars
 
-user: admin@admin
-pass: admin
+### Caracteristicas
+- CRUD completo
+- Gestion de inventarios y stock
+- Manejo de excepciones
+- Validacion de datos
 
-Rol de administrador, puede loguearse y ver los productos como un usuario normal. Sobre el header aparece un boton de Admin, para administrar el stock, la carga de un nuevo producto y la vista de los tickets de compras.
+## Configuracion e Instalacion
+
+git clone https://github.com/Omarit82/E-Commerce
+
+## Navega al directorio del proyecto y ejecuta:
+
+npm install
+
+## finalmente:
+
+npm run start
+
+El proyecto estará disponible en: http://localhost:8080
+
+### El proyecto posee un archivo .env.dev donde se puede visualizar el nombre de las variables que el usuario debe completar para realizar una conexion exitosa
