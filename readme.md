@@ -29,3 +29,5 @@ npm install
 npm run start
 
 El proyecto estará disponible en: http://localhost:8080
+
+### El proyecto posee un archivo .env.dev donde se puede visualizar el nombre de las variables que el usuario debe completar para realizar una conexion exitosa
